@@ -1,0 +1,37 @@
+body {
+background-color:#f9f0f8;
+    
+}
+h1{
+    text-align:center ;
+}
+.main{
+display:flex;
+flex-wrap:wrap;
+  width:90%;
+  justify-content:center ;
+  
+  padding:1rem;
+  background-color:#f9f0f9;
+  text-align:center ;
+  color:white
+}
+.title{
+    font-size:10px;
+}
+.cont{
+    width:150px;
+    height:200px;
+    background-color:#f2702f;
+    box-shadow:0 0 5px #ffffff;
+    text-align:center;
+    overflow-x:scroll ;
+    font-size:8px;
+    margin:2px;
+    
+}
+.img{
+ width:50px;
+}
+.price, .description{
+    margin:1rem;
