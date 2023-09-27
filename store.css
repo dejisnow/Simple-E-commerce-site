@@ -1,9 +1,12 @@
 body {
 background-color:#f9f0f8;
-    
+    height:150vh;
 }
 h1{
     text-align:center ;
+}
+span{
+    color:red;
 }
 .main{
 display:flex;
@@ -14,15 +17,18 @@ flex-wrap:wrap;
   padding:1rem;
   background-color:#f9f0f9;
   text-align:center ;
-  color:#ffffff
+  color:white
 }
 .title{
-    font-size:11px;
+    font-size:10px;
+}
+h2{
+    text-align:center ;
 }
 .cont{
     width:150px;
     height:200px;
-    background-color:#f2702f;
+    background-color:#fabec0;
     box-shadow:0 0 5px #ffffff;
     text-align:center;
     overflow-x:scroll ;
@@ -30,8 +36,19 @@ flex-wrap:wrap;
     margin:2px;
     
 }
+p,dl,h1{
+    color:black;
+}
+p{
+    line-height:22px;
+    text-align:center  ;
+}
+dl{
+    text-align:justify ;
+}
 .img{
  width:50px;
 }
 .price, .description{
     margin:1rem;
+    }
